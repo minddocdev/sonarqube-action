@@ -1,0 +1,22 @@
+name: 'Sonarqube Scanner'
+description: 'Scan code using Sonarqube'
+author: 'MindDoc GmbH'
+inputs:
+  app:
+    description: 'Application name'
+    required: true
+  baseDir:
+    description: 'Project base directory'
+    required: true
+  login:
+    description: 'Sonar login string'
+    required: true
+  url:
+    description: 'Sonar server url'
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'cloud'
+  color: 'blue'
