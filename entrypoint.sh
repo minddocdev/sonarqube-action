@@ -8,4 +8,3 @@ sonar-scanner \
 -Dsonar.projectName="$INPUT_APP" \
 -Dsonar.scm.provider=git \
 -Dsonar.sourceEncoding=UTF-8 \
--Dsonar.testExecutionReportPaths=test-report.xml
